@@ -100,6 +100,6 @@ int main() {
     printf("\r\n");
     
     while(1) {
-        wait_ms(500);
+        wait_us(500000);
     }
 }
